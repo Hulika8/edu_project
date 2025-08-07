@@ -28,5 +28,14 @@
 		"editor.codeActionsOnSave": {
 			"source.organizeImports": "explicit"
 		}
-	}
+	},
+	"html.autoClosingTags": true,
+	"html.autoClosingBrackets": "always",
+	"html.autoClosingQuotes": "always",
+	"html.format.enable": true,
+	"html.format.wrapLineLength": 120,
+	"emmet.includeLanguages": {
+		"html": "html"
+	},
+	"emmet.triggerExpansionOnTab": true
 }
