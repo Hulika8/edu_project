@@ -27,5 +27,3 @@ class ContactForm(forms.ModelForm):
         model = Contact
         fields = ['first_name', 'last_name', 'email', 'phone', 'message']
 
-    # def __init__(self, *args, **kwargs):
-    #     super().__init__(*args, **kwargs)
