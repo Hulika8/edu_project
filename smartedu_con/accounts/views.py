@@ -6,7 +6,7 @@ from . forms import LoginForm, RegisterForm
 # Create your views here.
 
 def user_login(request):
-    if request == 'POST':
+    if request.method == 'POST':
         form = LoginForm(request.POST)
         if form.is_valid():
             username = form.cleaned_data['username']
@@ -26,7 +26,7 @@ def user_login(request):
 
     else:
         form = LoginForm()
-        
+
     return render(request, 'login.html', {'form': form})
 
 def user_register(request):
