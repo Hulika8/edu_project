@@ -37,5 +37,7 @@
 	"emmet.includeLanguages": {
 		"html": "html"
 	},
-	"emmet.triggerExpansionOnTab": true
+	"emmet.triggerExpansionOnTab": true,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode"
 }
