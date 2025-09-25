@@ -1,43 +1,48 @@
 {
-	"editor.tokenColorCustomizations": {
-		"comments": "",
-		"textMateRules": []
-	},
-	"python.defaultInterpreterPath": "./env/bin/python",
-	"python.terminal.activateEnvironment": true,
-	"terminal.integrated.env.osx": {
-		"VIRTUAL_ENV": "${workspaceFolder}/env"
-	},
-	"editor.language.brackets": [
-		["python", "'''", "'''"],
-		["python", "\"\"\"", "\"\"\""]
-	],
-	"editor.comments.insertSpace": true,
-	"editor.comments.ignoreEmptyLines": true,
-	"python.linting.enabled": true,
-	"python.linting.pylintEnabled": false,
-	"python.linting.flake8Enabled": true,
-	"editor.quickSuggestions": {
-		"other": true,
-		"comments": false,
-		"strings": true
-	},
-	"[python]": {
-		"editor.defaultFormatter": "ms-python.python",
-		"editor.formatOnSave": true,
-		"editor.codeActionsOnSave": {
-			"source.organizeImports": "explicit"
-		}
-	},
-	"html.autoClosingTags": true,
-	"html.autoClosingBrackets": "always",
-	"html.autoClosingQuotes": "always",
-	"html.format.enable": true,
-	"html.format.wrapLineLength": 120,
-	"emmet.includeLanguages": {
-		"html": "html"
-	},
-	"emmet.triggerExpansionOnTab": true,
-	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.tokenColorCustomizations": {
+        "comments": "",
+        "textMateRules": []
+    },
+    "python.defaultInterpreterPath": "./env/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "terminal.integrated.env.osx": {
+        "VIRTUAL_ENV": "${workspaceFolder}/env"
+    },
+    "editor.language.brackets": [
+        ["python", "'''", "'''"],
+        ["python", "\"\"\"", "\"\"\""]
+    ],
+    "editor.comments.insertSpace": true,
+    "editor.comments.ignoreEmptyLines": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "html.autoClosingTags": true,
+    "html.autoClosingBrackets": "always",
+    "html.autoClosingQuotes": "always",
+    "html.format.enable": true,
+    "html.format.wrapLineLength": 120,
+    "emmet.includeLanguages": {
+        "html": "html"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "keyboard.dispatch": "keyCode",
+    "djlint.showInstallError": false,
+    "[django-html]": {
+        "editor.defaultFormatter": "monosans.djlint"
+    }
 }
